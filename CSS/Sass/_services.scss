@@ -1,0 +1,44 @@
+.services{
+	background-color: #F5F5F5;
+	text-align: center;
+	padding-bottom: 2%;
+	.wrapper{
+		h2{
+			margin: 0;
+	    padding-top: 5%;
+		}
+		img{
+			width: 25%;
+		}
+		p{
+	    padding: 2% 29%;
+		}
+		ul{
+			padding-left: 0;
+			margin:0;
+			li{
+				float: left;
+				width: 25%;
+				// padding: 2%;
+				position: relative;
+				background-color: #FFF;
+				width: calc(25% - 24px);
+    		margin: 12px;
+				p{
+					// background-color: #FFF;
+					width: 100%;
+					padding: 25% 0 0;
+    			font-size: 1.2rem;
+    			font-weight: bold;
+    			text-transform: uppercase;
+				}
+				img{
+					width: 50%;
+					position: absolute;
+					bottom: 44%;
+    			right: 25%;
+				}
+			}
+		}
+	}
+}

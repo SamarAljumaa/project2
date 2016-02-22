@@ -1,0 +1,34 @@
+.about{
+	padding: 3.5%;
+	.wrapper{
+		.aboutInfo{
+			width: 59%;
+			float: left;
+			text-align: center;
+			padding: 5%;
+			h3{
+				font-size: 4rem;
+				margin-bottom: 0
+			}
+			p{
+				margin:0;
+			}
+			p:last-child{
+				padding-left: 5%;
+    		padding-right: 5%;
+    		font-size: 1.3rem;
+			}
+			img{
+				width: 70%;
+				margin:5% 0;
+			}
+		}
+		.aboutPic{
+			width: 41%;
+			float: left;
+			img{
+				width: 100%;
+			}
+		}
+	}
+}

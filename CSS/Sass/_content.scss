@@ -1,0 +1,93 @@
+.content{
+	.innerWrapper{
+		margin: 0 auto;
+		width: 65%;
+		text-align: center;
+		padding-bottom: 2%;
+		.eventsPic{
+			margin:0 auto;
+			width: 70%;
+			img{
+				width: 100%;
+			}
+		}
+		h5{
+			font-weight:bold;
+			font-size: 2rem;
+		}
+		.eventIcons{
+			padding-left: 0;
+			padding-bottom: 2%;
+			width: 35%;
+    	margin: 0 auto;
+			li{
+				float: left;
+				width:33.3%;
+			}
+			li:first-child::before{
+				content:url('../../Images/icon-eventClock.png'); 
+				display: inline-block;
+				color: black;
+				padding: 3%;
+    		position: relative;
+    		top: 3px;
+			}
+			li:nth-child(2)::before{
+				content: url('../../Images/icon-eventDate.png');
+				display: inline-block;
+				color: black;
+				padding: 3%;
+    		position: relative;
+    		top: 3px;
+			}
+			li:last-child::before{
+				content: url('../../Images/icon-eventPin.png');
+				display: inline-block;
+				color: black;
+				padding: 3%;
+    		position: relative;
+    		top: 3px;
+			}
+		}
+	}
+	.eventPng{
+		padding-bottom: 3%;
+	}
+	p{
+		font-size: 1.2rem;
+    padding: 0px 10%;
+	}
+	.secondParagraph{
+		padding-bottom: 3%;
+	}
+	.mapLinks{
+		padding-left: 0;
+		width: 100%;
+		li{
+			width: 50%;
+		  margin-top: 5%;
+		  font-weight: bold;
+    	text-transform: uppercase;
+			a{
+				color: black;
+				border: 3px solid black;
+				padding: 3% 10%;
+				font-size: 1.2rem;
+				transition: all .4s;
+			}
+		}
+		li:first-child{
+			float: left;
+			text-align: left;
+		}
+		li:last-child{
+			float: right;
+			text-align: right;
+		}
+		a:hover{
+			background-color: rgb(255, 81, 74);
+			border: 3px solid rgb(255, 81, 74);
+			color: white;
+		}
+	}
+}

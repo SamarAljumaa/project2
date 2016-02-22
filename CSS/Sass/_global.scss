@@ -1,0 +1,35 @@
+//hover color rgb(255, 81, 74)
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	.wrapper{
+		max-width: 1080px;
+		margin:0 auto;
+		width: 60%;
+	}
+	h1, h2, h3{
+		font-family: 'Aguafina Script', cursive;
+	}
+	
+	h1{
+		font-size: 6.8rem;
+	}
+
+	h2{
+		font-size: 3.7rem;
+	}
+
+	ul{
+
+		li{
+			list-style-type: none;
+		}
+	}
+
+	a{
+		text-decoration: none;
+	}
+}
